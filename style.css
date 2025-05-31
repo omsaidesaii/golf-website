@@ -250,7 +250,7 @@ video {
   background-size: cover;
   background-position: center;
   overflow: hidden;
-  transition: all ease 0.6s;
+  transition: all ease 0.1s;
 }
 #card1 {
   background-image: url(images/card1.avif);
