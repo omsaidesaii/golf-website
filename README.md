@@ -1,25 +1,26 @@
 # 🏌️‍♂️ Sidcup Family Golf Website
 
-A visually engaging and responsive golf-themed website built with **HTML5**, **CSS3**, **GSAP**, and **Remix Icon**, inspired by Sidcup Family Golf. The site combines smooth animations, dynamic interactions, and elegant design to promote a fun-filled golfing experience for all ages.
+An animated golf-themed website built with **HTML5**, **CSS3**, **JavaScript**, and **GSAP**, inspired by the real-world Sidcup Family Golf website. The project showcases smooth scroll animations and engaging UI effects for a visually dynamic experience.
+
+> ⚠️ **Note:** This project is currently **not responsive** for mobile or tablet devices.
 
 ## 🚀 FEATURES
 
-- 🎬 GSAP-powered smooth page load and scroll animations
-- 🖱️ Custom animated cursor with hover interactivity
-- 🎯 Hero video background showcasing live action
-- 🧾 Marquee section highlighting multiple offerings
-- 📖 About section with responsive layout and media
-- 💳 Tilt-enabled service cards with hover effects
-- 🍽️ Cafe section with image grid and CTA button
-- 🖼️ Instagram-style horizontal image gallery
+- 🎬 GSAP-powered animations and transitions
+- 🖱️ Custom animated cursor with hover interactions
+- 📽️ Video background in hero section
+- 🧾 Marquee section for key highlights
+- 🖼️ Image sections with creative layout and effects
+- 💳 Tilt-enabled service cards using VanillaTilt.js
+- 🎨 Clean layout inspired by real-world design
 
 ## 🛠️ TECHNOLOGIES USED
 
 - HTML5  
-- CSS3 (with responsive media queries)  
-- JavaScript (custom DOM interaction)  
+- CSS3  
+- JavaScript (Vanilla JS)  
 - GSAP (GreenSock Animation Platform)  
-- Vanilla-Tilt.js (card tilt effect)  
+- Vanilla-Tilt.js  
 - Remix Icon  
 
 ## 🔧 HOW TO USE
@@ -29,7 +30,7 @@ A visually engaging and responsive golf-themed website built with **HTML5**, **C
    git clone https://github.com/omsaidesaii/golf-website.git
    ```
 
-2. Navigate into the project directory:
+2. Navigate into the project folder:
    ```bash
    cd golf-website
    ```
@@ -38,10 +39,9 @@ A visually engaging and responsive golf-themed website built with **HTML5**, **C
 
 ### **CUSTOMIZATION**
 
-- 🎥 Replace media inside the `/images` and video folder:
-  - `hero.mp4`, `page2-left.avif`, `page2-right.avif`, and icons
-- 📝 Edit text and links in `index.html` for personalized branding
-- 🎨 Customize styles in `style.css` and animations in `script.js` to suit your theme
+- 🎥 Replace the video (`hero.mp4`) and images (`page2-left.avif`, `page2-right.avif`, etc.) in the `/images` folder
+- 🖌️ Modify styles and layout in `style.css`
+- ✨ Edit animation logic and effects in `script.js` (GSAP and cursor logic)
 
 ## 💻 CLONING THE REPOSITORY
 
@@ -56,6 +56,6 @@ Then open `index.html` in your browser.
 
 ## 📌 LIVE DEMO
 
-Check it out here: [https://golf-website.vercel.app](https://golf-website.vercel.app) 
+Check it out here: [https://golf-website.vercel.app](https://golf-website.vercel.app) <!-- Replace with your actual live link -->
 
 ---
