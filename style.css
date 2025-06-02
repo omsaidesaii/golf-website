@@ -538,6 +538,9 @@ video {
 #f1 img {
   height: 100px;
 }
+#footer h3:hover{
+  color: #fff;
+} 
 #f1,
 #f2,
 #f3,
