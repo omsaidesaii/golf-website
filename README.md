@@ -2,7 +2,7 @@
 
 An animated golf-themed website built with **HTML5**, **CSS3**, **JavaScript**, and **GSAP**, inspired by the real-world Sidcup Family Golf website. The project showcases smooth scroll animations and engaging UI effects for a visually dynamic experience.
 
-> ⚠️ **Note:** This project is currently **not responsive** for mobile or tablet devices.
+> ⚠️ **Note:** This project is currently **not that much responsive** for mobile or tablet devices.
 
 ## 🚀 FEATURES
 
