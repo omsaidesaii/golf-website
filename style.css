@@ -538,9 +538,6 @@ video {
 #f1 img {
   height: 100px;
 }
-#footer h3:hover{
-  color: #fff;
-} 
 #f1,
 #f2,
 #f3,
@@ -567,6 +564,9 @@ video {
   font-weight: 900;
   margin-bottom: 8px;
 }
+#footer h3:hover {
+  color: #fff;
+}
 #f4 h4 {
   font-size: 20px;
   white-space: nowrap;
@@ -584,7 +584,18 @@ video {
   color: #fff;
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 600px) 
+
+
+
+{
+
+  *{
+    max-width: 100vw;
+  }
+  body{
+    max-width: 100vw;overflow-x: hidden;
+  }
   #cursor {
     display: none;
   }
@@ -594,12 +605,12 @@ video {
   }
   #nav {
     height: auto;
-    width: 100%;
+    width: 100vw;
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 0 60px;
-    gap: 25px;
+    padding: 0 30px;
+    gap: 15px;
     position: fixed;
     justify-content: flex-start;
     z-index: 999;
@@ -615,7 +626,8 @@ video {
   }
   video {
     height: 62.5em;
-    max-width: 428px;
+    width: 100vw;
+    max-width: none;
     object-fit: cover;
     z-index: -1;
     position: fixed;
@@ -628,7 +640,7 @@ video {
 
   #page1 {
     height: 100vh;
-    width: 100%;
+    width: 100vw;
     position: relative;
     display: flex;
     align-items: center;
@@ -639,7 +651,7 @@ video {
   }
   #page1 h1 {
     margin-top: 1.5em;
-    font-size: 60px;
+    font-size: 15vw;
     font-weight: 900;
     text-transform: uppercase;
     line-height: 65px;
@@ -868,7 +880,7 @@ video {
 
   #page3 {
     height: 50vh;
-    width: 100%;
+    width: 100vw;
     background-color: #000;
     display: flex;
     align-items: center;
@@ -898,11 +910,12 @@ video {
   }
   #page3 #colon2 {
     bottom: 7%;
-    right: 9%;
+    right: 10%;
   }
+  
   #page4 {
     height: 100vh;
-    width: 100%;
+    width: 100vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -946,15 +959,14 @@ video {
   .elem:hover img {
     scale: 1;
   }
-#page4 h1 {
-  font-size: 23px;
-  position: absolute;
-  top: 8%;
-  font-weight: 900;
-  color: #95c11e;
-  -webkit-text-stroke: 0px #95c11e; /* darker green for better contrast */
-}
-
+  #page4 h1 {
+    font-size: 23px;
+    position: absolute;
+    top: 8%;
+    font-weight: 900;
+    color: #95c11e;
+    -webkit-text-stroke: 0px #95c11e; /* darker green for better contrast */
+  }
 
   #section {
     height: auto;
@@ -1021,12 +1033,12 @@ video {
     z-index: 10;
     padding-top: 85px;
     height: 70vh;
-    width: 100%;
+    width: 100vw;
     overflow-y: hidden;
     overflow-x: auto;
   }
   .scrolling {
-    width: 100%;
+    width: 100vw;
     height: 70%;
     position: relative;
     z-index: 10;
@@ -1111,7 +1123,6 @@ video {
     margin: 2px 0;
     text-transform: uppercase;
     font-weight: 600;
-    
   }
 
   .footer-end {
